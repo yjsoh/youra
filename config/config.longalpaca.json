@@ -1,0 +1,34 @@
+{
+    "device": "cuda",
+    "device_map": "default",
+    "torch_dtype": "float16",
+    "model_name": "Yukang/LongAlpaca-7B-16k",
+    "nlp": "stanza",
+    "YOURA_CHUNKENIZER": {
+        "ROOT_HANDLING_METHOD": "split_max_position_embeddings_no_overlap",
+        "CONTEXT_WINDOW_SIZE": 16384,
+        "ROOT_SPLIT_OFFSET": 100,
+        "QUANT_METHOD": "sentence_enclosing",
+        "QUANT": 10,
+        "NLP_MODEL_ID": "en",
+        "MONGO_URI": "",
+        "FORCE_CONSTRUCT_DAG": true,
+        "ADD_PREPEND_PROMPT": false,
+        "UPDATE_DAG": false
+    },
+    "YOURA_RETRIEVER": {
+        "context_window_size": 16384,
+        "attn_agg": "mean",
+        "reaction_agg": "gmean",
+        "append_prompt_file": "config/dataset2appendprompt.json",
+        "prepend_prompt_file": "config/dataset2prependprompt.json",
+        "compression_ratio": 1.2,
+        "retain_ctxt_order": true,
+        "postprocess_merge_retrieved": false,
+        "retrieval_budget": 15500,
+        "attention_method": "append_prompt"
+    },
+    "AUGMENTER": {
+        "concat_str": "\n"
+    }
+}

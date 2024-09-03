@@ -1,0 +1,12 @@
+{
+    "narrativeqa": "You are given a story, which can be either a novel or a movie script, and a question. Answer the question asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nStory: ",
+    "qasper": "You are given a scientific article and a question. Answer the question as concisely as you can, using a single phrase or sentence if possible. If the question cannot be answered based on the information in the article, write \"unanswerable\". If the question is a yes/no question, answer \"yes\", \"no\", or \"unanswerable\". Do not provide any explanation.\n\nArticle: ",
+    "multifieldqa_en": "Read the following text and answer briefly.\n\n",
+    "hotpotqa": "Answer the question based on the given passages. Only give me the answer and do not output any other words.\n\nThe following are given passages.\n",
+    "2wikimqa": "Answer the question based on the given passages. Only give me the answer and do not output any other words.\n\nThe following are given passages.\n",
+    "musique": "Answer the question based on the given passages. Only give me the answer and do not output any other words.\n\nThe following are given passages.\n",
+    "gov_report": "You are given a report by a government agency. Write a one-page summary of the report.\n\nReport:\n",
+    "qmsum": "You are given a meeting transcript and a query containing a question or instruction. Answer the query in one or more sentences.\n\nTranscript:\n",
+    "multi_news": "You are given several news passages. Write a one-page summary of all news. \n\nNews:\n",
+    "test": "You are given a context and a question. Answer the question as concisely as you can, using a single phrase or sentence if possible. Do not provide any explanation.\n\nContext:"
+}

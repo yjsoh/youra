@@ -1,0 +1,77 @@
+.nfs*
+
+# compilation and distribution
+__pycache__
+torch_compile_debug
+_ext
+*.pyc
+*.pyd
+*.so
+*.dll
+*.egg-info/
+build/
+dist/
+wheels/
+data/
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+*.ts
+model_ts*.txt
+
+# onnx models
+*.onnx
+
+# ipython/jupyter notebooks
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# editor settings
+.idea
+.vscode
+_darcs
+
+# profiling result
+result.json
+log
+
+# picture
+*.svg
+
+# Log files
+*.log
+*.out
+*.err
+*.pickle
+*.json
+*.jsonl
+*.csv
+
+# output folder
+output/
+
+# output file types to ignore
+*.pt
+*.png
+*.gif
+*.pdf
+*.error.txt
+tmp.gif
+
+# result
+result*/
+evidence/
+sentence_relevance/
+
+# symlink to the latest result
+latest
+
+!assets/*.png
+!config/*.json

@@ -1,0 +1,12 @@
+{
+    "narrativeqa": "\n\nNow, answer the question based on the story asconcisely as you can, using a single phrase if possible. Do not provide any explanation.\n\nQuestion: ",
+    "qasper": "\n\n Answer the question based on the above article as concisely as you can, using a single phrase or sentence if possible. If the question cannot be answered based on the information in the article, write \"unanswerable\". If the question is a yes/no question, answer \"yes\", \"no\", or \"unanswerable\". Do not provide any explanation.\n\nQuestion: ",
+    "multifieldqa_en": "\n\nNow, answer the following question based on the above text, only give me the answer and do not output any other words.\n\nQuestion: ",
+    "hotpotqa": "\n\nAnswer the question based on the given passages. Only give me the answer and do not output any other words.\n\nQuestion: ",
+    "2wikimqa": "\n\nAnswer the question based on the given passages. Only give me the answer and do not output any other words.\n\nQuestion: ",
+    "musique": "\n\nAnswer the question based on the given passages. Only give me the answer and do not output any other words.\n\nQuestion: ",
+    "gov_report": "\n\nNow, write a one-page summary of the report.\n\nSummary:",
+    "qmsum": "\n\nNow, answer the query based on the above meeting transcript in one or more sentences.\n\nQuery: ",
+    "multi_news": "\n\nNow, write a one-page summary of all the news.\n\nSummary:",
+    "test": "\n\nQuestion: "
+}
